@@ -26,7 +26,7 @@ function MobileMenu() {
                 <NavLink to="/olympian">Olympian</NavLink>
               </li>
               <li>
-                <NavLink to="/others">Others</NavLink>
+                <NavLink to="/other">Other</NavLink>
               </li>
               <li>
                 <NavLink to="/login">Login</NavLink>

@@ -1,0 +1,23 @@
+.header-container {
+  width: 100vw;
+  height: 80px;
+  background-color: var(--grey-color);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-container li {
+  display: inline;
+  padding-right: 50px;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.header-container li:hover {
+  color: var(--red-color);
+}
+
+.logo-header {
+  height: 100px;
+}

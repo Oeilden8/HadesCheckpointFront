@@ -1,0 +1,130 @@
+.characters-container {
+  background: no-repeat top right url(../../assets/Wallpaper_Tartarus.jpg);
+  background-size: auto 100vh;
+  background-attachment: fixed;
+  margin: 0;
+  padding: 0 0 40px 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.character-card {
+  width: 620px;
+  height: 420px;
+  background-color: var(--fadingGrey-color);
+  border-radius: 15px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  padding: 40px;
+  margin-top: 40px;
+}
+
+.character-card img {
+  width: 45%;
+  height: 60%;
+  border-radius: 15px;
+  object-fit: cover;
+  object-position: top center;
+  overflow: hidden;
+}
+
+.spec {
+  display: flex;
+  flex-flow: column wrap;
+  max-width: 45%;
+  justify-content: space-around;
+}
+
+.c-title {
+  color: var(--red-color);
+  margin-top: -10px;
+}
+
+.o-title {
+  color: var(--gold-color);
+  margin-top: -10px;
+}
+
+.oth-title {
+  color: rgb(131, 37, 255);
+  margin-top: -10px;
+}
+
+.spec h3 {
+  padding-top: 10px;
+  font-size: 25px;
+}
+
+.spec p {
+  font-size: 20px;
+  margin-top: -15px;
+}
+
+.description {
+  line-height: 150%;
+  align-self: flex-end;
+  margin: 0;
+}
+
+@media screen and (min-width: 1900px) {
+  .characters-container {
+    background-size: 100vw auto;
+  }
+}
+
+@media screen and (max-width: 1430px) {
+  .character-card {
+    width: 520px;
+    height: 420px;
+  }
+
+  .description {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 1075px) {
+  .character-card {
+    width: 320px;
+    height: 450px;
+    padding: 20px;
+    margin-top: 20px;
+  }
+
+  .character-card img {
+    height: 50%;
+  }
+
+  .c-title {
+    font-size: 20px;
+    margin-top: -5px;
+  }
+
+  .o-title {
+    font-size: 20px;
+    margin-top: -5px;
+  }
+
+  .oth-title {
+    font-size: 20px;
+    margin-top: -5px;
+  }
+
+  .spec h3 {
+    padding-top: 2px;
+    font-size: 18px;
+  }
+
+  .spec p {
+    font-size: 18px;
+  }
+
+  .description {
+    font-size: 13px;
+    align-self: center;
+  }
+}

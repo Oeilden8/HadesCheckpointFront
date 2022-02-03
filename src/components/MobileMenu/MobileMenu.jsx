@@ -20,10 +20,10 @@ function MobileMenu() {
                 <NavLink to="/">Home</NavLink>
               </li>
               <li>
-                <NavLink to="/chtonics">Chtonics</NavLink>
+                <NavLink to="/chtonic">Chtonic</NavLink>
               </li>
               <li>
-                <NavLink to="/olympians">Olympians</NavLink>
+                <NavLink to="/olympian">Olympian</NavLink>
               </li>
               <li>
                 <NavLink to="/others">Others</NavLink>

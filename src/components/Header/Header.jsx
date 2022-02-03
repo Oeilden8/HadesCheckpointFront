@@ -2,11 +2,15 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 import "./Header.css";
 import logo from "../../assets/Hades_Logo.png";
+import MobileMenu from "../MobileMenu/MobileMenu";
 
 function Header() {
   return (
     <div className="header-container">
-      <ul>
+      <div className="burger-container">
+        <MobileMenu />
+      </div>
+      <ul className="desktop">
         <li>
           <NavLink to="/">Accueil</NavLink>
         </li>

@@ -7,17 +7,43 @@
   align-items: center;
 }
 
-.header-container li {
+.burger-container {
+  display: none;
+}
+
+.desktop li {
   display: inline;
   padding-right: 50px;
   font-size: 25px;
   font-weight: bold;
 }
 
-.header-container li:hover {
+.desktop li:hover {
   color: var(--red-color);
 }
 
 .logo-header {
   height: 100px;
+}
+
+@media screen and (max-width: 1270px) {
+  .desktop li {
+    font-size: 20px;
+    padding-right: 40px;
+  }
+
+  .logo-header {
+    height: 80px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .desktop li {
+    display: none;
+  }
+
+  .burger-container {
+    display: block;
+    margin-left: 10px;
+  }
 }

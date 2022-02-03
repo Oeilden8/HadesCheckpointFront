@@ -17,7 +17,7 @@ function MobileMenu() {
           <div className="menu-container">
             <ul>
               <li>
-                <NavLink to="/">Accueil</NavLink>
+                <NavLink to="/">Home</NavLink>
               </li>
               <li>
                 <NavLink to="/chtonics">Chtonics</NavLink>

@@ -1,0 +1,50 @@
+.header-container {
+  width: 100vw;
+  height: 80px;
+  background-color: var(--grey-color);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.burger-container {
+  display: none;
+}
+
+.desktop li {
+  display: inline;
+  padding-right: 50px;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.desktop li:hover {
+  color: var(--red-color);
+}
+
+.logo-header {
+  height: 100px;
+  margin-right: 10px;
+}
+
+@media screen and (max-width: 1270px) {
+  .desktop li {
+    font-size: 20px;
+    padding-right: 40px;
+  }
+
+  .logo-header {
+    height: 80px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .desktop li {
+    display: none;
+  }
+
+  .burger-container {
+    display: block;
+    margin-left: 10px;
+  }
+}

@@ -1,10 +1,15 @@
-## Available Scripts
+# Bilan
+
+All routes are working, but I didn't have time to use them in the front. What I'm missing:
+upload a new image, delete and update a character if I'm admin, create a new member.
 
 # Front-Hades
 
 Front end for my last Checkpoint at Wild Code School.
+
 Here is the requirements:
 
+- Code it in two days
 - At least one useState
 - At least one useEffect
 - At least 2 resources (entities) connected together

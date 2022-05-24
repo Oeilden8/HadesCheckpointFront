@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/HadesCheckpointFront/static/css/main.2e41a973.css",
-    "main.js": "/HadesCheckpointFront/static/js/main.3401e638.js",
+    "main.js": "/HadesCheckpointFront/static/js/main.e68903e0.js",
     "static/media/Wallpaper_Zagreus02.png": "/HadesCheckpointFront/static/media/Wallpaper_Zagreus02.d20117ac9cdc678dd808.png",
     "static/media/Wallpaper_Tartarus.jpg": "/HadesCheckpointFront/static/media/Wallpaper_Tartarus.cf88fa8af1f4bbf071d0.jpg",
     "static/media/HouseAdministrativeChamber.webp": "/HadesCheckpointFront/static/media/HouseAdministrativeChamber.6d2549f519ec13c788ec.webp",
@@ -10,10 +10,10 @@
     "static/media/Hades_Logo.png": "/HadesCheckpointFront/static/media/Hades_Logo.fd9fd6f47419e1a09b12.png",
     "index.html": "/HadesCheckpointFront/index.html",
     "main.2e41a973.css.map": "/HadesCheckpointFront/static/css/main.2e41a973.css.map",
-    "main.3401e638.js.map": "/HadesCheckpointFront/static/js/main.3401e638.js.map"
+    "main.e68903e0.js.map": "/HadesCheckpointFront/static/js/main.e68903e0.js.map"
   },
   "entrypoints": [
     "static/css/main.2e41a973.css",
-    "static/js/main.3401e638.js"
+    "static/js/main.e68903e0.js"
   ]
 }

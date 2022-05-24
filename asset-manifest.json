@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/HadesCheckpointFront/static/css/main.8b3767f3.css",
+    "main.css": "/HadesCheckpointFront/static/css/main.b951f9b1.css",
     "main.js": "/HadesCheckpointFront/static/js/main.e68903e0.js",
     "static/media/Wallpaper_Zagreus02.png": "/HadesCheckpointFront/static/media/Wallpaper_Zagreus02.d20117ac9cdc678dd808.png",
     "static/media/Wallpaper_Tartarus.jpg": "/HadesCheckpointFront/static/media/Wallpaper_Tartarus.cf88fa8af1f4bbf071d0.jpg",
@@ -9,11 +9,11 @@
     "static/media/Rowdies-Light.ttf": "/HadesCheckpointFront/static/media/Rowdies-Light.97fd181336cb2a8b2b6e.ttf",
     "static/media/Hades_Logo.png": "/HadesCheckpointFront/static/media/Hades_Logo.fd9fd6f47419e1a09b12.png",
     "index.html": "/HadesCheckpointFront/index.html",
-    "main.8b3767f3.css.map": "/HadesCheckpointFront/static/css/main.8b3767f3.css.map",
+    "main.b951f9b1.css.map": "/HadesCheckpointFront/static/css/main.b951f9b1.css.map",
     "main.e68903e0.js.map": "/HadesCheckpointFront/static/js/main.e68903e0.js.map"
   },
   "entrypoints": [
-    "static/css/main.8b3767f3.css",
+    "static/css/main.b951f9b1.css",
     "static/js/main.e68903e0.js"
   ]
 }

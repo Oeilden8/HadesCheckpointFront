@@ -9,7 +9,7 @@ function Chtonic() {
     axios
       .get(`${process.env.REACT_APP_BACKEND_URL}/api/characters/type/1`)
       .then((resp) => {
-        console.log(resp.data);
+        // console.log(resp.data);
         return setChtonic(resp.data);
       })
       .catch((err) => console.log(err));

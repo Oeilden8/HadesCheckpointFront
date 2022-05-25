@@ -28,15 +28,16 @@ function Login() {
           .post(`${process.env.REACT_APP_BACKEND_URL}/api/login`, login, {
             withCredentials: true,
           })
-          .then((resp) => {
-            console.log(resp.data);
-          })
+          // .then((resp) => {
+          //   console.log(resp.data);
+          // })
           .then(() => {
             navigate("../admin", { replace: true });
           });
       } catch (err) {
-        console.log(err.response.data);
-        alert(err.response.data);
+        // console.log(err.response.data);
+        setAlertMsg(err.response.data);
+        setAlert(true);
       }
     }
   };

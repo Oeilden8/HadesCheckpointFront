@@ -9,7 +9,7 @@ function Other() {
     axios
       .get(`${process.env.REACT_APP_BACKEND_URL}/api/characters/type/3`)
       .then((resp) => {
-        console.log(resp.data);
+        // console.log(resp.data);
         return setOther(resp.data);
       })
       .catch((err) => console.log(err));

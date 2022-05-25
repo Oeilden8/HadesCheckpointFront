@@ -9,7 +9,7 @@ function Olympian() {
     axios
       .get(`${process.env.REACT_APP_BACKEND_URL}/api/characters/type/2`)
       .then((resp) => {
-        console.log(resp.data);
+        // console.log(resp.data);
         return setOlympian(resp.data);
       })
       .catch((err) => console.log(err));
